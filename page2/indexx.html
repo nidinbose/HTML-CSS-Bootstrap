@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylex.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<div class="maindiv">
+
+
+    <div class="container pt-2">
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid row">
+            <div class=" ms-5  ps-5 logo col-lg-5">
+            <a class="navbar-brand" href="#"><img src="data:image/png;base64,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" alt="img1 " style="width: 8%;"></a>
+            <img src="images/Screenshot 2024-03-13 201308.png" alt="img2" style="width: 150px;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </div>
+            </button>
+    
+            <div class="collapse navbar-collapse flex-fill col-lg-7" id="navbarNav" style="font-weight: 600;">
+              <ul class="navbar-nav me-auto " style="width: 100%; ;">
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">All Paths</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Community</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">Support us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sign in</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#"><i class="bi bi-brightness-high" style="font-weight: 600;"></i></a>
+                </li>
+                <button type="button" class="btn btn-success">Get Started</button>
+                 
+               </ul>
+              </div>
+              </div>
+              </nav>
+              </div>
+
+              <!-- second bar items -->
+
+
+       <div class="maindiv2">
+
+            
+        <div class="textty"> <h1>All Paths</h1></div>
+
+                 <div class="cd1">
+
+
+                     
+
+
+                     <div class="bar1">
+  
+                       <img src="https://www.theodinproject.com/assets/badge-foundations-4a1f6ae4009e6156a289aef0a3897283ff0e3fe1af6b5795aaf7260619dc11f4.svg" alt="re" class="img-fluid"  style="margin: 2%;">
+
+                       <h1> <span>Foundations</span></h1>
+                       <button type="button" class="btn btn-secondary">Explore</button>
+                      
+
+                      </div>
+                      
+                       
+                      <div class="bar2">
+                        
+
+                        <div class="q1"> <span>This is where it all begins! A hands-on introduction to all of the essential tools you'll need to build real, working websites. You'll learn what web developers actually do and the foundations you'll need for later <br> courses.</span></div>
+                      </div>
+
+                        
+
+                 </div>
+
+                    <div class="ln1">
+                       <hr> <hr> 
+                       <span>Then choose a learning path: </span>
+                      
+                    </div>
+
+
+
+                      <div class="cd2">
+
+                          <div class="firstdiv">
+
+                            <img src="https://www.theodinproject.com/assets/badge-ruby-on-rails-0100b2e2593cbeb4d87e92e9fc9930448581ef43b8ab175d5cfef2b6e7e3f29c.svg" alt="hv" class="img-fluid">
+
+                            <div class="ft">
+                              <p>PATH</p>
+                              <p>8 Courses</p>
+                            </div>
+                            <h1>Full Stack Ruby on Rails</h1>
+                            <span>This path takes you through our entire Ruby on <br>
+                               Rails curriculum. The courses should be taken <br>
+                                in the order that they are displayed. You'll learn <br>
+                                 everything you need to know to create <br> beautiful responsive websites from scratch <br>
+                                  using Ruby on Rails.</span>
+
+                                  <button type="button" class="btn btn-secondary">Explore</button>     
+
+                          </div>
+
+                      
+
+
+                        <div class="firstdiv">
+
+                          <img src="https://www.theodinproject.com/assets/badge-ruby-on-rails-0100b2e2593cbeb4d87e92e9fc9930448581ef43b8ab175d5cfef2b6e7e3f29c.svg" alt="hv" class="img-fluid">
+
+                          <div class="ft">
+                            <p>PATH</p>
+                            <p>8 Courses</p>
+                          </div>
+                          <h1>Full Stack Ruby on Rails</h1>
+                          <span>This path takes you through our entire Ruby on <br>
+                             Rails curriculum. The courses should be taken <br>
+                              in the order that they are displayed. You'll learn <br>
+                               everything you need to know to create <br> beautiful responsive websites from scratch <br>
+                                using Ruby on Rails.</span>
+
+                                <button type="button" class="btn btn-secondary">Explore</button>     
+
+                        </div>
+                      </div>
+
+
+
+                      
+
+
+  </div>
+
+
+
+              
+    <!-- final divition of page -->
+    <div class="fbox">
+
+      <div><h1>Support us!</h1></div>
+
+      <div><p>The Odin Project is funded by the community. Join us in empowering learnersc <br> around the globe by supporting The Odin Project!</p></div>
+
+      <div class="btn6"><button type="button" class="btn btn-light">Learn More</button>
+      <button type="button" class="btn btn-success">Donate now></button></div>
+
+  </div>
+
+
+  <!-- footer -->
+
+       <div class="maindiv4">
+
+
+
+
+  <footer style="margin: 0px; padding-top: 5%px; background:white;">
+      <div class="container5">
+          <div class="footer-content" style="text-align: start;">
+              <p class="e5" style="margin-left: 32%;"><img src="images/the-odin-project-logos-idxqyQyT9i.png" alt="dw">
+                  <img src="Screenshot 2024-03-13 201308.png" alt="ghj" style="width: 20%;">
+              </p>
+              <div class="e6">
+              <p >High quality coding education maintained by an open <br> source community.</p>
+              <p style="margin-right: 78%"><i class="bi bi-github"></i> 
+                <i class="bi bi-discord"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+
+              </p>
+            </div>
+              
+          </div>
+          <div class="lc">
+
+          <div class="footer-content">
+            
+             
+            <h1>About us</h1>
+            <p>About</p>
+            <p>Team</p>
+            <p>Blog</p>
+            <p>Success Stories</p>
+
+          </div>
+
+          <div class="footer-content" style="margin-bottom: 6%;">
+
+            <h1>Support</h1>
+            <p>FAQ</p>
+            <p>contribute</p>
+            <p>Contact us</p>
+
+
+          </div>
+
+          <div class="footer-content" style="margin-bottom: 12%;">
+
+            <h1>Guides</h1>
+            <p>Community guides</p>
+            <p>Installation guides</p>
+          </div>
+
+
+          <div class="footer-content" style="margin-bottom: 13%;" >
+            <h1>Legal</h1>
+            <p>Terms</p>
+            <p>Privacy</p>
+
+          </div>
+        </div>
+   </div>
+             <hr style="color: grey;width: 80%;margin-left: 10%;">
+             <div style="color: black;font-size: smaller;margin-left: 10%;">
+              © 2024 The Odin Project. All rights reserved.</div>
+  </footer>
+</body>
+</html>
+
+                   
+
+       </div>
+    
+
+
+</div>
+</body>
+</html>

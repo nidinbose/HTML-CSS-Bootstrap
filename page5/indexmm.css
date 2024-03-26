@@ -1,0 +1,166 @@
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+
+.text h1{
+    font-size: 35px;
+    padding-top: 4%;
+
+}
+
+.text p{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 6%;
+    color: rgb(114, 113, 113);
+}
+.text button{
+    width: 12vw;
+    height: 7vh;
+    margin-top: 3%;
+    
+}
+.head1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text2 h2{
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    flex-direction: column;
+   padding-bottom: 1%;
+   padding-top: 1%;
+   font-size: 23px;
+   font-weight: 600;
+
+}
+
+.text2 span{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+    font-size: 18px;
+    color: rgb(81, 80, 80);
+    
+}
+
+
+
+.text2{
+    padding-left: 25%;
+    background-color:rgb(247, 247, 247);
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.ttt{
+    font-size: 28px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+margin-bottom: 0%;
+margin-top: 3%;
+padding-top: 2%;
+}
+
+
+/* cppy */
+
+.fbox{
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 5%;
+}
+.fbox button{
+    width: 10%;
+    /* column-gap: 10%; */
+
+}
+.btn6{
+    width:100%;
+    
+  
+}
+.fbox h1{
+    margin-top: 70%;
+}
+.fbox p{
+    padding-top: 5%;
+}
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 ;
+    padding: 0 20px;
+}
+
+.footer-content {
+    text-align: center;
+
+}
+.footer-content p img{
+    width: 4%;
+}
+  
+
+.container5{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+     background-color:white;
+     color: black;
+     margin-right: 20%;
+     margin-top: 3%;
+}
+.lc{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    column-gap:10%;
+    
+    
+}
+.footer-content h1{
+    font-size: 15px;
+}
+.e6{
+    margin-left: 33%;
+}
+.e5{
+    width: 100%;
+}
+
+.footer-content p{
+    color: rgb(81, 80, 80);
+}
